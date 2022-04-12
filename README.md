@@ -10,6 +10,7 @@ I created a Last.fm artists and their works listing application. As a user, You 
 
 - You can see top artists list as the main page. If I want, I should be able to scroll through these using infinite scrolling.
 - For each artist detail, there are top albums, and top tracks. This artist detail page is responsive.
+- Also this project has dark/light mode feature.
 
 ps: I use same component for Albums and Tracks card component. My expectation
 is the creating a component that can serve both types of data.
