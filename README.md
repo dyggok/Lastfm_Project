@@ -1,5 +1,5 @@
 # :notes: Last-fm API Project :notes:
-<img src="https://media0.giphy.com/media/cgW5iwX0e37qg/giphy.gif?cid=ecf05e47yegxwvzm8lgootpuidldyvficz6ltwj7bw7shcgi&rid=giphy.gif&ct=g" align="right"/>
+<img src="https://media0.giphy.com/media/cgW5iwX0e37qg/giphy.gif?cid=ecf05e47yegxwvzm8lgootpuidldyvficz6ltwj7bw7shcgi&rid=giphy.gif&ct=g" align="right" width="350"/>
 
 ## Demo Link: [Click!](https://lastfm-project.netlify.app/)
 
