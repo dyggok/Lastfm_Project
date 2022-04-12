@@ -5,7 +5,7 @@
 
 ### API : [Click!](https://www.last.fm/api)
 
-### Technologies: Javascript, HTML, CSS, Bootstrap, React.
+### Technologies: Javascript, HTML, CSS, Bootstrap, React, React Router Dom, Axios.
 I created a Last.fm artists and their works listing application. As a user, You can see the list of top artists list as the main page. In addition to this, You can see detail of a specific artist. 
 
 - You can see top artists list as the main page. If I want, I should be able to scroll through these using infinite scrolling.
