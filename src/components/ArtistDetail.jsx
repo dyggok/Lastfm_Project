@@ -5,7 +5,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import TopAlbums from "./TopAlbums";
 import TopTracks from "./TopTracks";
 import Loading from "./Loading";
-import DarkAndLightMode from "./DarkAndLightMode";
+import DarkAndLightMode from "./Navbar";
 
 function ArtistDetail(props){
   const {artistName} = useParams();

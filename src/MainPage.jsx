@@ -1,4 +1,4 @@
-import DarkAndLightMode from "./components/DarkAndLightMode";
+import DarkAndLightMode from "./components/Navbar";
 import TopArtists from "./components/TopArtists";
 import { Container } from "react-bootstrap";
 function MainPage(props){

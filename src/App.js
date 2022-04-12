@@ -4,17 +4,19 @@ import {Routes, Route} from "react-router-dom";
 import MainPage from './MainPage';
 import ArtistDetail from './components/ArtistDetail';
 import { useState, useEffect } from 'react';
-import DarkAndLightMode from './components/DarkAndLightMode';
+import Navbar from './components/Navbar';
 
 function App() {
   const themes = {
     light: {
       backgroundColor: "bg-light",
       color: "text-dark",
+      button: "btn-outline-dark"
     },
     dark: {
       backgroundColor: "bg-dark",
       color: "text-light",
+      button: "btn-outline-light"
     }
   }
   const [themeName, setThemeName] = useState("light");
@@ -35,7 +37,7 @@ function App() {
 
   return (
     <div className='App'>
-      <DarkAndLightMode theme={themeName == "light" ? themes.light : themes.dark} setThemeName={setThemeName}/>
+          <Navbar theme={themeName == "light" ? themes.light : themes.dark} setThemeName={setThemeName}/>
       <Routes>
         <Route path='/' element={<MainPage theme={themeName == "light" ? themes.light : themes.dark} setThemeName={setThemeName}/>}/>
         <Route path='/artists/:artistName' element={<ArtistDetail theme={themeName == "light" ? themes.light : themes.dark} setThemeName={setThemeName}/>}/>
